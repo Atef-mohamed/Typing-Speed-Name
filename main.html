@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Game</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game">
+        <div class="name">Typing Speed Game</div>
+        <div class="container">
+            <div class="message">
+                You Are Playing On
+                <span class="lvl">
+                    <select name="levels">
+                        <option value="Easy">Easy</option>
+                        <option value="Normal">Normal</option>
+                        <option value="Hard">Hard</option>
+                      </select>
+                </span> Level & You Have <span class="seconds"></span> Secondes To Type The Word
+            </div>
+            <div class="start">Start Playing</div>
+            <div class="the-word"></div>
+            <input type="text" class="input">
+            <div class="upcoming-words">words will Show Here</div>
+            <div class="control">
+                <div class="time">Time Left: <span></span> Seconds</div>
+                <div class="score">Score: <span class="got">0</span> From <span class="total">6</span></div>
+            </div>
+            <div class="finish"></div>
+            <div class="tryAgin">
+                <div class="try">Try Agin</div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./js/main.js"></script>
+    <script src="./js/all.min.js"></script>
+</body>
+</html>
